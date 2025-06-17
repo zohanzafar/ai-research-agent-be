@@ -91,13 +91,13 @@ POST /api/v1/research/
 POST /api/v1/research/generate/
 → Generate research content using the AI agent (based on a keyword).
 
-GET /api/v1/research/<id>/
+GET /api/v1/research/id/
 → Retrieve details of a single research record by ID.
 
-DELETE /api/v1/research/<id>/
+DELETE /api/v1/research/id/
 → Delete a specific research record by ID.
 
-GET /api/v1/research/<id>/download-pdf/
+GET /api/v1/research/id/download-pdf/
 → Download the research report as a structured PDF file.
 
 GET /api/v1/research/download-csv/
