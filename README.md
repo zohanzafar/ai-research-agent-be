@@ -4,8 +4,8 @@ This project helps users create research reports using an AI Agent. Users enter 
 
 ## Features
 
-- Generates reports with sections like scope, design, literature, and ethics
-- Saves all reports in the database
+- Generates research reports with sections like scope, design, literature, and ethics
+- Saves all research reports in the database
 - Exports research reports to PDF and CSV
 
 ## How It Works
@@ -14,7 +14,7 @@ This project helps users create research reports using an AI Agent. Users enter 
 2. The system fetches related information from Wikipedia.
 3. It sends a structured prompt to OpenAI to create the report.
 4. The response is stored in the database.
-5. Users can view, download, or export the reports via REST API endpoints.
+5. Users can view, download, or export the research reports via REST API endpoints.
 
 ## AI Agent
 
@@ -79,6 +79,29 @@ Each report has these fields:
 - Discussion
 - Ethics
 - References
+
+## API Endpoints
+
+GET /api/v1/research/
+→ List all research records.
+
+POST /api/v1/research/
+→ Create a new research record.
+
+POST /api/v1/research/generate/
+→ Generate research content using the AI agent (based on a keyword).
+
+GET /api/v1/research/<id>/
+→ Retrieve details of a single research record by ID.
+
+DELETE /api/v1/research/<id>/
+→ Delete a specific research record by ID.
+
+GET /api/v1/research/<id>/download-pdf/
+→ Download the research report as a structured PDF file.
+
+GET /api/v1/research/download-csv/
+→ Download all research records as a CSV file.
 
 ## Notes
 
