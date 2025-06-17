@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# Django
+*.db
+*.sqlite3
+*.sqlite
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+.envrc
+venv/
+instance/
+config/settings/local.py
+secret_key.txt
+
+# VSCode
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.py~
+*/migrations/*.log
+*/migrations/*.sqlite3
+
+# Testing
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Pipenv
+Pipfile.lock
+
+# Logs
+*.log
+logs/
+
+# Compiled files
+*.mo
+
+# Docker
+docker-compose.override.yml
+
+# Build
+build/
+dist/
+*.tar.gz
+*.whl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary
+*.bak
+*.swp
+*.tmp
+*.orig
+*.rej
+
