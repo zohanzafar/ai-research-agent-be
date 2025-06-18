@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
-from langchain.utilities import WikipediaAPIWrapper
+from langchain_community.utilities import WikipediaAPIWrapper
 
 load_dotenv()
 

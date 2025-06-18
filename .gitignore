@@ -40,6 +40,7 @@ Thumbs.db
 */migrations/*.py~
 */migrations/*.log
 */migrations/*.sqlite3
+*migrations/
 
 # Testing
 htmlcov/
@@ -91,4 +92,7 @@ dist/
 *.tmp
 *.orig
 *.rej
+
+# Config 
+config
 
