@@ -40,7 +40,6 @@ Thumbs.db
 */migrations/*.py~
 */migrations/*.log
 */migrations/*.sqlite3
-*migrations/
 
 # Testing
 htmlcov/
