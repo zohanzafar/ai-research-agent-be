@@ -27,7 +27,7 @@ All reports are saved in the database. This allows users to see past results and
 ## Setup
 
 ```bash
-git clone https://github.com/zohanzafar/ai_research_agent_be.git
+git clone [ repo link here ]
 cd ai_research_agent_be
 python3 -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
