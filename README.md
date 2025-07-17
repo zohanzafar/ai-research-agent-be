@@ -83,24 +83,31 @@ Each report has these fields:
 ## API Endpoints
 
 GET /api/v1/research/
+
 → List all research records.
 
 POST /api/v1/research/
+
 → Create a new research record.
 
 POST /api/v1/research/generate/
+
 → Generate research content using the AI agent (based on a keyword).
 
 GET /api/v1/research/id/
+
 → Retrieve details of a single research record by ID.
 
 DELETE /api/v1/research/id/
+
 → Delete a specific research record by ID.
 
 GET /api/v1/research/id/download-pdf/
+
 → Download the research report as a structured PDF file.
 
 GET /api/v1/research/download-csv/
+
 → Download all research records as a CSV file.
 
 ## Notes
